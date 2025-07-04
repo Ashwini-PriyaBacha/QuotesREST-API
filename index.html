@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Quote Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Quote Generator</h1>
+    <p style="text-align:center">Click the button to get a new quote</p>
+
+    <div class="quote-box">
+      <div id="quote-content">
+        <p class="quote" id="quote-text">Click the button to load your first quote</p>
+        <p class="author" id="author-name"></p>
+        <div class="tags" id="tags-container"></div>
+      </div>
+
+      <button id="new-quote">Get New Quote</button>
+      <p id="date-display"></p>
+    </div>
+
+    <p style="text-align:center; margin-top:20px;">
+      Quotes provided by <a href="https://api.quotable.io" target="_blank">Quotable API</a>
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
